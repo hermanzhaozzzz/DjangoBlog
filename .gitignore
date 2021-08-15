@@ -17,6 +17,7 @@ bin/datas/
 uploads/
 djangoblog.log
 
+.github/workflows/docker.yml # 这个东西提交报错,需要密码和用户
 
 
 # ------------------------------------------------------------------->>>>>>>>>>
