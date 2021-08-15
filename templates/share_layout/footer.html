@@ -35,20 +35,6 @@
         本页面加载耗时:<!!LOAD_TIMES!!>s
     </div>
     {% if BEIAN_CODE %}
-<<<<<<< HEAD
-        <div class="site-info" style="text-align: center">
-            <a href="https://beian.miit.gov.cn/" rel="nofollow" target="_blank">
-                <p style=" height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">
-                    {{ BEIAN_CODE }}
-                </p>
-            </a>
-            {% if BEIAN_CODE_GONGAN and SHOW_GONGAN_CODE %}
-                {{ BEIAN_CODE_GONGAN |safe }}
-            {% endif %}
-        </div>
-    {% endif %}
-    
-=======
     <div class="site-info" style="text-align: center">
         <a href="https://beian.miit.gov.cn/" rel="nofollow" target="_blank">
             <p style=" height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">
@@ -60,17 +46,9 @@
         {% endif %}
     </div>
     {% endif %}
-
->>>>>>> dev
     {% comment %}
     {% if ANALYTICS_CODE %}
     {{ ANALYTICS_CODE| safe }}
     {% endif %}
     {% endcomment %}
-<<<<<<< HEAD
 </footer><!-- #colophon -->
-
-
-=======
-</footer><!-- #colophon -->
->>>>>>> dev
