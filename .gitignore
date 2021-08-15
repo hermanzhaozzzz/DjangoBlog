@@ -1,0 +1,42 @@
+# ------------------------------------------------------------------->>>>>>>>>>
+# Django database file
+# ------------------------------------------------------------------->>>>>>>>>>
+migrations/
+!migrations/__init__.py
+# collectedstatic/
+DjangoBlog/whoosh_index/
+google93fd32dbd906620a.html
+baidu_verify_FlHL7cUyC9.html
+BingSiteAuth.xml
+cb9339dbe2ff86a5aa169d28dba5f615.txt
+werobot_session
+django.jpg
+settings_production.py
+werobot_session.db
+bin/datas/
+uploads/
+djangoblog.log
+
+
+
+# ------------------------------------------------------------------->>>>>>>>>>
+# Herman's files and folders
+# ------------------------------------------------------------------->>>>>>>>>>
+/.ipynb_checkpoints/
+/.texpadtmp/
+/.Trash/
+/.snakemake/
+/tmpdir_*/
+.DS_Store
+.Rhistory
+.localized
+
+# ------------------------------------------------------------------->>>>>>>>>>
+# Byte-compiled / optimized / DLL files
+# ------------------------------------------------------------------->>>>>>>>>>
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+
